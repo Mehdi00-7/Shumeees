@@ -1,0 +1,204 @@
+/* Whole Page */
+
+body {
+  /* Type */
+  display: grid;
+  /* Grid */
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+  grid-template-columns: 1fr;
+  background-image: linear-gradient(75deg, #0e558c, #5a48a1);
+  color: white;
+}
+
+/* Header Start */
+header {
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 5px #ff496a;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  padding: 10px 0px;
+  background-image: linear-gradient(75deg, #0ebebb, #d753db);
+  border-radius: 50px;
+}
+
+.header-container > img {
+  padding: 0px 10px 0px 20px;
+  max-width: 80%;
+}
+
+.header-container > h1 {
+  padding: 0px 20px 0px 10px;
+  padding-top: 9px;
+}
+
+nav,
+.navbar {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px 0px 0px;
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  padding: 15px 0px;
+  background-image: linear-gradient(75deg, #20eeeb, #d753db);
+}
+
+.button-1 {
+  background: none;
+  border: none;
+  padding: 0px 15px;
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 2px #ff496a;
+}
+
+.button-2 {
+  color: #ff496a;
+  background-color: white;
+  border-color: #ff496a;
+  border-radius: 50px;
+  padding: 5px 10px;
+  margin: 4px 10px;
+}
+
+.button-3 {
+  color: #ff496a;
+  background-color: white;
+  border-color: #ff496a;
+  border-radius: 50px;
+  padding: 5px 10px;
+  margin: 4px 10px;
+  width: 200px;
+  margin: 0px 20px;
+}
+
+.logout {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.navbar-toggler {
+  margin: 0px 15px;
+  right: 1%;
+}
+/* Header End */
+
+/* Main Start */
+main {
+  /* Type */
+  grid-area: main;
+}
+
+.pf-info {
+  margin: auto;
+  width: 600px;
+}
+
+form {
+  color: black;
+  max-width: 500px;
+  margin: auto;
+}
+
+form > label {
+  margin-right: 5px;
+}
+form > input,
+form > select {
+  margin: 10px 0px;
+  width: 150px;
+  height: 30px;
+}
+
+form > button {
+  margin: 10px 0px;
+  width: 150px;
+  height: 40px;
+}
+
+th:first-child {
+  border-top-left-radius: 6px;
+}
+
+th:last-child {
+  border-top-right-radius: 6px;
+}
+
+/* hobby list */
+.hobby-list {
+  max-width: 450px;
+  margin: 10px auto;
+}
+
+.hobby {
+  padding: 6px 20px;
+  color: black;
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 10px;
+}
+
+.hobby h3,
+.hobby .icons {
+  display: inline-block;
+}
+
+.hobby .icons {
+  text-align: right;
+}
+
+.hobby i {
+  font-size: 1.4em;
+  margin-left: 6px;
+  margin: 4px 6px;
+  cursor: pointer;
+  color: #bbb;
+}
+
+.hobby i.active {
+  color: #ff005d;
+}
+
+nav > .filter {
+  width: 640px;
+  margin: 10px auto;
+  text-align: right;
+}
+.filter button {
+  display: inline-block;
+  margin-left: 10px;
+  background: #fff;
+  border: 2px solid #555;
+  border-radius: 10px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-size: 1em;
+}
+
+/* Main End */
