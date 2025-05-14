@@ -1,15 +1,7 @@
 # Shumeees - ECS639U Group CW - Group 28
 
-Shumeees is a hobby-based web application, developed for the ECS639U Web Programming group coursework. This social network allows users to create profiles and connect with others based on shared hobbies. 
+Shumeees is a hobby-based web application that allows users to create profiles and connect with others based on shared hobbies. 
 
-## Contribution
-
-| Group Member        | Assigned work                                            | Completed work                                                                              |
-|---------------------|----------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Joseph Charlie Best | Backend - login/signup, serialisers, views               | Backend - login/signup, serialisers, views<br>Frontend - various improvements<br>Deployment |
-| Mehdi Gourari       | Backend - models<br>Frontend - user list                 | Backend - models<br>Frontend - user list, pagination and filtering, friends page fetching   |
-| Theo Georgiou       | Frontend - user list, friend requests<br>Automated tests | Frontend - user list, friend requests<br>Automated tests                                    |
-| Daniel Ka Sing Ho   | Frontend - profile, hobby list                           | Frontend - profile, hobby list, styling                                                     |
 
 ## Deployment
 
