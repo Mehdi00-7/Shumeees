@@ -1,4 +1,4 @@
-# Shumeees - ECS639U Group CW - Group 28
+# Shumeees 
 
 Shumeees is a hobby-based web application that allows users to create profiles and connect with others based on shared hobbies. 
 
