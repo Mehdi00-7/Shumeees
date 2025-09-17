@@ -5,11 +5,9 @@ Shumeees is a hobby-based web application that allows users to create profiles a
 ## App Images
 
 Screenshots of the application:
-
-![Home Page](images/homepage.png)
-![Profile Page](images/profile.png)
-
-(Add your screenshots to the `images` folder and update the filenames above as needed.)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
 ## Local development
 
